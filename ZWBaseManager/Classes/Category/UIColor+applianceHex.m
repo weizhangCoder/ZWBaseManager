@@ -1,6 +1,6 @@
 //
 //  UIColor+applianceHex.m
-//  张云杰
+//  
 //
 //  Created by mac on 16/3/13.
 //  Copyright © 2016年 com.jyall. All rights reserved.
