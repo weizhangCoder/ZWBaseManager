@@ -1,0 +1,6 @@
+framework module Pods_ZWBaseManager_Example {
+  umbrella header "Pods-ZWBaseManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

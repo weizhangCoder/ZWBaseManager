@@ -1,0 +1,16 @@
+PODS:
+  - ZWBaseManager (0.1.0)
+
+DEPENDENCIES:
+  - ZWBaseManager (from `../`)
+
+EXTERNAL SOURCES:
+  ZWBaseManager:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ZWBaseManager: 61d3b852150c33372638023dfc0964a92e4b605b
+
+PODFILE CHECKSUM: 5bd5aeeff2f8752181410267d3460f01aa2559ac
+
+COCOAPODS: 1.2.0.beta.1

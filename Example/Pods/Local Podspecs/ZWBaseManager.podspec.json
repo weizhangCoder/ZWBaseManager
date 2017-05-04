@@ -1,0 +1,22 @@
+{
+  "name": "ZWBaseManager",
+  "version": "0.1.0",
+  "summary": "A short description of ZWBaseManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/weizhangCoder/ZWBaseManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "weizhangCoder": "zhang.wei5@jyall.com"
+  },
+  "source": {
+    "git": "https://github.com/weizhangCoder/ZWBaseManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZWBaseManager/Classes/**/*"
+}
