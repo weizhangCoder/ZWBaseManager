@@ -22,8 +22,7 @@
     }else{
         btn.contentHorizontalAlignment = UIControlContentHorizontalAlignmentRight;
     }
-//        button.contentEdgeInsets = UIEdgeInsetsMake(0, -10, 0, 0);
-//    [btn setBackgroundImage:normalImage forState:UIControlStateNormal];
+
     [btn setImage:normalImage forState:UIControlStateNormal];
     [btn addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
     
