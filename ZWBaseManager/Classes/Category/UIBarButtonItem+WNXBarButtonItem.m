@@ -94,7 +94,7 @@
         titleColor = [UIColor blackColor];
     }
     [btn setTitleColor:titleColor forState:UIControlStateNormal];
-    [btn setTitleColor:UICOLOR_RGB_Alpha(0xcccccc, 1) forState:UIControlStateDisabled];
+    [btn setTitleColor:[UIColor lightGrayColor] forState:UIControlStateDisabled];
     [btn addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
     
     UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithCustomView:btn];

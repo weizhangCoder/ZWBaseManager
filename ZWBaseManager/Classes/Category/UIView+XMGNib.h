@@ -2,8 +2,8 @@
 //  UIView+XMGNib.h
 //  百思不得姐
 //
-//  Created by 王顺子 on 16/6/22.
-//  Copyright © 2016年 小码哥. All rights reserved.
+//  Created by ZW on 16/6/22.
+//  Copyright © 2016年 ZW. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -17,5 +17,7 @@
  *  @return 控制器
  */
 - (UIViewController *)currentViewController;
+
++ (instancetype)viewFromXib;
 
 @end

@@ -16,4 +16,4 @@ CGFloat const kMenueBarHeight = 35;
 CGFloat const kNavigationBarMaxY = 64;
 
 // tabbar的高度
-CGFloat const kTabbarHeight = 0;
+CGFloat const kTabbarHeight = 49;

@@ -2,8 +2,8 @@
 //  UIImage+XMGImage.h
 //  喜马拉雅FM
 //
-//  Created by 王顺子 on 16/8/1.
-//  Copyright © 2016年 小码哥. All rights reserved.
+//  Created by ZW on 16/8/1.
+//  Copyright © 2016年 ZW. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -13,6 +13,9 @@
 + (UIImage *)originImageWithName: (NSString *)name;
 
 - (UIImage *)circleImage;
+
+//默认图片，全局都可以使用
++(UIImage *)produceNewImageWithSmallImage:(UIImage *)image smallImageSize:(CGSize)smallImageSize withOutSize:(CGSize)outSize;
 
 
 
