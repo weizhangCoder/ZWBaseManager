@@ -7,16 +7,16 @@
 //
 
 #import "UIFont+Extension.h"
-#import "Base.h"
+
 
 @implementation UIFont (Extension)
 
 + (UIFont *)fontWithDevice:(CGFloat)fontSize {
-    if (kScreenWidth > 375) {
+    if ([[UIScreen mainScreen] bounds].size.width > 375) {
         fontSize = fontSize+1.0;
-    }else if (kScreenWidth == 375){
+    }else if ([[UIScreen mainScreen] bounds].size.width == 375){
         fontSize = fontSize;
-    }else if (kScreenWidth == 320){
+    }else if ([[UIScreen mainScreen] bounds].size.width == 320){
         fontSize = fontSize - 1;
     }
     
@@ -26,11 +26,11 @@
 
 
 + (UIFont *)boldfontWithDevice:(CGFloat)fontSize {
-    if (kScreenWidth > 375) {
+    if ([[UIScreen mainScreen] bounds].size.width > 375) {
         fontSize = fontSize+1.5;
-    }else if (kScreenWidth == 375){
+    }else if ([[UIScreen mainScreen] bounds].size.width == 375){
         fontSize = fontSize;
-    }else if (kScreenWidth == 320){
+    }else if ([[UIScreen mainScreen] bounds].size.width == 320){
         fontSize = fontSize - 1;
     }
     UIFont *font = [UIFont boldSystemFontOfSize:fontSize];
