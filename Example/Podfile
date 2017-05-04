@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZWBaseManager_Example' do
+  pod 'ZWBaseManager', :path => '../'
+
+  target 'ZWBaseManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
