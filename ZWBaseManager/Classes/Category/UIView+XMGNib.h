@@ -1,6 +1,6 @@
 //
 //  UIView+XMGNib.h
-//  百思不得姐
+// 
 //
 //  Created by ZW on 16/6/22.
 //  Copyright © 2016年 ZW. All rights reserved.
