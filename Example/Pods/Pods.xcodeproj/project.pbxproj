@@ -26,8 +26,6 @@
 		72D6C8CC1EBAD6E300BE0A96 /* UIView+XMGNib.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D6C8BE1EBAD6E300BE0A96 /* UIView+XMGNib.m */; };
 		72D6C8CF1EBAD7BB00BE0A96 /* UIView+IBExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 72D6C8CD1EBAD7BB00BE0A96 /* UIView+IBExtension.h */; };
 		72D6C8D01EBAD7BB00BE0A96 /* UIView+IBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D6C8CE1EBAD7BB00BE0A96 /* UIView+IBExtension.m */; };
-		72D6C8D31EBAD85300BE0A96 /* UIBarButtonItem+WNXBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 72D6C8D11EBAD85300BE0A96 /* UIBarButtonItem+WNXBarButtonItem.h */; };
-		72D6C8D41EBAD85300BE0A96 /* UIBarButtonItem+WNXBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D6C8D21EBAD85300BE0A96 /* UIBarButtonItem+WNXBarButtonItem.m */; };
 		72D6C8D71EBAD85D00BE0A96 /* UIColor+applianceHex.h in Headers */ = {isa = PBXBuildFile; fileRef = 72D6C8D51EBAD85D00BE0A96 /* UIColor+applianceHex.h */; };
 		72D6C8D81EBAD85D00BE0A96 /* UIColor+applianceHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D6C8D61EBAD85D00BE0A96 /* UIColor+applianceHex.m */; };
 		72D6C8DB1EBAD86B00BE0A96 /* UIFont+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 72D6C8D91EBAD86B00BE0A96 /* UIFont+Extension.h */; };
@@ -83,8 +81,6 @@
 		72D6C8BE1EBAD6E300BE0A96 /* UIView+XMGNib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XMGNib.m"; sourceTree = "<group>"; };
 		72D6C8CD1EBAD7BB00BE0A96 /* UIView+IBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+IBExtension.h"; sourceTree = "<group>"; };
 		72D6C8CE1EBAD7BB00BE0A96 /* UIView+IBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+IBExtension.m"; sourceTree = "<group>"; };
-		72D6C8D11EBAD85300BE0A96 /* UIBarButtonItem+WNXBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+WNXBarButtonItem.h"; sourceTree = "<group>"; };
-		72D6C8D21EBAD85300BE0A96 /* UIBarButtonItem+WNXBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+WNXBarButtonItem.m"; sourceTree = "<group>"; };
 		72D6C8D51EBAD85D00BE0A96 /* UIColor+applianceHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+applianceHex.h"; sourceTree = "<group>"; };
 		72D6C8D61EBAD85D00BE0A96 /* UIColor+applianceHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+applianceHex.m"; sourceTree = "<group>"; };
 		72D6C8D91EBAD86B00BE0A96 /* UIFont+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Extension.h"; sourceTree = "<group>"; };
@@ -211,8 +207,6 @@
 				72D6C8DA1EBAD86B00BE0A96 /* UIFont+Extension.m */,
 				72D6C8D51EBAD85D00BE0A96 /* UIColor+applianceHex.h */,
 				72D6C8D61EBAD85D00BE0A96 /* UIColor+applianceHex.m */,
-				72D6C8D11EBAD85300BE0A96 /* UIBarButtonItem+WNXBarButtonItem.h */,
-				72D6C8D21EBAD85300BE0A96 /* UIBarButtonItem+WNXBarButtonItem.m */,
 				72D6C8CD1EBAD7BB00BE0A96 /* UIView+IBExtension.h */,
 				72D6C8CE1EBAD7BB00BE0A96 /* UIView+IBExtension.m */,
 				72D6C8B51EBAD6E300BE0A96 /* CALayer+PauseAimate.h */,
@@ -337,7 +331,6 @@
 				72D6C8C01EBAD6E300BE0A96 /* Sington.h in Headers */,
 				72D6C8E31EBAD91000BE0A96 /* NSArray+HSSafeAccess.h in Headers */,
 				72D6C8C71EBAD6E300BE0A96 /* UIImage+XMGImage.h in Headers */,
-				72D6C8D31EBAD85300BE0A96 /* UIBarButtonItem+WNXBarButtonItem.h in Headers */,
 				72D6C8C11EBAD6E300BE0A96 /* XMGConst.h in Headers */,
 				72D6C8CB1EBAD6E300BE0A96 /* UIView+XMGNib.h in Headers */,
 				72D6C8DF1EBAD90B00BE0A96 /* NSString+HSHeight.h in Headers */,
@@ -462,7 +455,6 @@
 				72D6C8E41EBAD91000BE0A96 /* NSArray+HSSafeAccess.m in Sources */,
 				72D6C8D81EBAD85D00BE0A96 /* UIColor+applianceHex.m in Sources */,
 				72D6C8DC1EBAD86B00BE0A96 /* UIFont+Extension.m in Sources */,
-				72D6C8D41EBAD85300BE0A96 /* UIBarButtonItem+WNXBarButtonItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
