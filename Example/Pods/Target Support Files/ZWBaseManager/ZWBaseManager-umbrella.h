@@ -10,9 +10,6 @@
 #endif
 #endif
 
-#import "Base.h"
-#import "Sington.h"
-#import "XMGConst.h"
 #import "CALayer+PauseAimate.h"
 #import "NSArray+HSSafeAccess.h"
 #import "NSString+HSHeight.h"

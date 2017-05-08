@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZWBaseManager'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = '常用的基础类别'
 
 # This description is used to generate tags and improve search results.
@@ -31,9 +31,7 @@ TODO: 常用的一些基础的类别.
   s.ios.deployment_target = '8.0'
 
 # s.source_files = 'ZWBaseManager/Classes/**/*'
-    s.subspec 'Base' do |b|
-    b.source_files = 'ZWBaseManager/Classes/Base/**/*'
-    end
+   
     s.subspec 'Category' do |c|
     c.source_files = 'ZWBaseManager/Classes/Category/**/*'
     end
