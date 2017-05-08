@@ -1,5 +1,9 @@
 PODS:
-  - ZWBaseManager (0.1.0)
+  - ZWBaseManager (0.1.4):
+    - ZWBaseManager/Base (= 0.1.4)
+    - ZWBaseManager/Category (= 0.1.4)
+  - ZWBaseManager/Base (0.1.4)
+  - ZWBaseManager/Category (0.1.4)
 
 DEPENDENCIES:
   - ZWBaseManager (from `../`)
@@ -9,7 +13,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ZWBaseManager: 61d3b852150c33372638023dfc0964a92e4b605b
+  ZWBaseManager: a361ebc141d74ab8de3515a96e3f2e8a4a9e2c96
 
 PODFILE CHECKSUM: 5bd5aeeff2f8752181410267d3460f01aa2559ac
 

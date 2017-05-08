@@ -15,6 +15,9 @@
     return [[UIImage imageNamed:name] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
 
 }
++ (UIImage *)originImageWithImage: (UIImage *)image{
+    return [image imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+}
 
 - (UIImage *)circleImage {
 

@@ -12,6 +12,8 @@
 
 + (UIImage *)originImageWithName: (NSString *)name;
 
++ (UIImage *)originImageWithImage: (UIImage *)image;
+
 - (UIImage *)circleImage;
 
 //默认图片，全局都可以使用
